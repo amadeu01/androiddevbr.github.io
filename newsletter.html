@@ -10,7 +10,7 @@ permalink: /news/
         <! -- BLOG POSTS LIST -->
         <div class="col-lg-8">
 
-            {% for nl in site.categories['newsletter'] %}
+            {% for nl in site.categories['news'] %}
                 <! -- Blog Post -->
                 <a href="{{ nl.url | prepend: site.baseurl }}">
                     <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ nl.img }}">
